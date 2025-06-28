@@ -57,7 +57,7 @@ const Project = () => {
             id: 6,
             name: "Stopwatch",
             description: "A simple stopwatch made using JS, CSS, and HTML.",
-            link: "https://cafesito.vercel.app/",
+            link: "https://stopwatch-using-js-sigma.vercel.app/",
         },
     ];
 
