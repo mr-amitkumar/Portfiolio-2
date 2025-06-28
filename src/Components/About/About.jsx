@@ -2,7 +2,21 @@ import Image from "../../assets/pics.jpg";
 import { FaHtml5, FaCss3, FaReact, FaBootstrap } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoTailwindCss } from "react-icons/bi";
+import { useState } from "react";
 const About = () => {
+    const [selected, setSelected] = useState(null);
+
+    const educationDetails = {
+        tenth: "Passed 10th from Modern Public School with 75% in 2019.",
+        twelfth: "Passed 12th from Newtonian Higher Secondary School with 81% in 2021.",
+        btech: "B.Tech in Computer Science from Srinix College, CGPA: 7.71.",
+    };
+
+    const items = [
+        { key: "tenth", label: "10th" },
+        { key: "twelfth", label: "12th" },
+        { key: "btech", label: "B.Tech" },
+    ];
     return (
         <div className="bg-gray-300 min-h-screen text-black">
             <div className="flex  flex-col gap-4 align-middle justify-center item-center mx-auto px-4 max-w-4xl  ">
@@ -55,9 +69,32 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className="p-6 max-w-xl mx-auto">
+                    <h1 className="text-2xl font-bold mb-4">Education</h1>
+
+                    <div className=" flex  sm:flex-row flex-col  justify-center  align-middle items-center gap-3 h-[120px]space-y-3">
+                        {items.map((item) => (
+                            <div
+                                key={item.key}
+                                className="border rounded-lg p-4 cursor-pointer bg-gray-100 hover:bg-gray-200 transition"
+                                onClick={() =>
+                                    setSelected(selected === item.key ? null : item.key)
+                                }
+                            >
+                                <h2 className="text-lg font-semibold">{item.label}</h2>
+                                {selected === item.key && (
+                                    <p className="mt-2 text-gray-700">
+                                        {educationDetails[item.key]}
+                                    </p>
+                                )}
+                            </div>
+                        ))}
+                    </div>
+                </div>
             </div>
         </div>
     )
 }
 
-export default About
+export default About;
