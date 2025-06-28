@@ -9,11 +9,11 @@ const Home = () => {
                     <p className="text-gray-700 text-xl sm:text-2xl">
                         <strong className="text-green-600">Web Developer (Front-end developer)</strong> | Problem Solver | Quick Learner
                     </p>
-                    <p className="text-gray-700">Building modern and eco-friendly <strong className="text-blue-600">web-applications.</strong></p>
+                    <p className="text-gray-700">building the Frontend of Websites and <strong className="text-blue-600">web-applications</strong> that lead to the success of the overall product</p>
 
                 </div>
                 <div className="border-2 p-2 rounded-full text-gray-600 shadow-md shadow-gray-600 border-gray-600 sm:mt-0 mt-4 sm:mb-0 mb-4 ">
-                    <img src={Image} alt="" className="h-[120px] sm:h-[220px] p-2 rounded-full" />
+                    <img src={Image} alt="" className="h-[190px] sm:h-[220px] p-2 rounded-full" />
                 </div>
             </div>
         </div>

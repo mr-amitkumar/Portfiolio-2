@@ -52,13 +52,9 @@ const About = () => {
                                     <FaReact className="text-blue-300  font-semibold text-[20px] sm:text-4xl" />React
                                 </p>
                             </div>
-
-
                         </div>
-
                     </div>
                 </div>
-
             </div>
         </div>
     )
