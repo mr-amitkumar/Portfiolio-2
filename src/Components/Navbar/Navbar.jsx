@@ -22,7 +22,7 @@ const Navbar = () => {
                     <ul className=" hidden sm:flex gap-4 text-white font-semibold  cursor-pointer text-xl">
                         <li className="hover:text-gray-400 transition-all duration-300"><Link to="/">Home</Link></li>
                         <li className="hover:text-gray-400 transition-all duration-300"><Link to="/about">About</Link></li>
-                        <li className="hover:text-gray-400 transition-all duration-300"><a>Project</a></li>
+                        <li className="hover:text-gray-400 transition-all duration-300"><Link to="/project">Project</Link></li>
                     </ul>
                 </nav>
 
@@ -45,7 +45,7 @@ const Navbar = () => {
                             <Link to="/about"><MdOutlineRoundaboutLeft className='text-2xl' /></Link>
                         </li>
                         <li onClick={handleClose} className="hover:text-gray-400 transition-all duration-300 cursor-pointer">
-                            <a href=""><GoProjectRoadmap className='text-2xl' /></a>
+                            <Link to="/project"><GoProjectRoadmap className='text-2xl' /></Link>
                         </li>
                         <div
                             className=" sm:hidden group border-2 p-2 rounded-full text-green-600 border-green-600   hover:border-gray-300 cursor-pointer mx-auto"><RiContactsFill className="group-hover:text-gray-300"

@@ -10,7 +10,7 @@ const Footer = () => {
                         <ul className="flex flex-col sm:flex-row sm:gap-2 gap-1 text-white font-semibold cursor-pointer sm:text-xl text-[17px] ml-6">
                             <li className="hover:text-gray-400 transition-all duration-300"><Link to="/">Home</Link></li>
                             <li className="hover:text-gray-400 transition-all duration-300"><Link to="/about">About</Link></li>
-                            <li className="hover:text-gray-400 transition-all duration-300"><a href="">Project</a></li>
+                            <li className="hover:text-gray-400 transition-all duration-300"><Link to="/project">Project</Link></li>
                             <li className="hover:text-gray-400 transition-all duration-300"><a href="">Contact</a></li>
                         </ul>
                     </nav>
