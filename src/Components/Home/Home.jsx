@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { MdArrowOutward } from "react-icons/md";
 const Home = () => {
     return (
-        <div className="bg-gray-300 h-[90vh] sm:h-[88.7vh] text-white">
+        <div className="bg-gray-200 h-[90vh] sm:h-[88.7vh] text-white">
             <div className="flex flex-col sm:flex-row   gap-2 sm:gap-6 align-middle justify-center items-center h-full">
                 <div className="flex flex-col gap-1 sm:gap-2 text-center sm:text-left max-w-2xl px-4">
                     <h1

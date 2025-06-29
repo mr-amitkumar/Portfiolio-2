@@ -63,7 +63,7 @@ const Project = () => {
     ];
 
     return (
-        <div className="bg-gray-300 text-black min-h-screen p-6 text-center">
+        <div className="bg-gray-200 text-black min-h-screen p-6 text-center">
             <h1 
              data-aos="zoom-in"
                         data-aos-anchor-paclement="top-center"

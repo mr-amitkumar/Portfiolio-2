@@ -33,7 +33,7 @@ const About = () => {
     ];
 
     return (
-        <div className="bg-gray-300 min-h-screen text-black">
+        <div className="bg-gray-200 min-h-screen text-black">
             <div className="flex flex-col gap-4 justify-center items-center mx-auto px-4 max-w-4xl">
 
                 <h1 
@@ -160,7 +160,7 @@ const About = () => {
                             <Motion.div
                                 key={item.key}
                                 whileHover={{ scale: 1.05 }}
-                                className="border rounded-lg p-4 cursor-pointer bg-gray-100 hover:bg-gray-200 transition"
+                                className="border rounded-lg p-4 cursor-pointer bg-gray-100 hover:bg-gray-400 transition"
                                 onClick={() =>
                                     setSelected(selected === item.key ? null : item.key)
                                 }

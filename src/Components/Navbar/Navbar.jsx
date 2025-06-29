@@ -21,7 +21,7 @@ const Navbar = () => {
                     // data-aos="zoom-out"
                     className="sm:text-3xl  text-white text-xl font-sans font-semibold">Amit<strong className="text-green-600 text-2xl tracking-wide">.</strong></h1>
                 <nav>
-                    <ul className=" hidden sm:flex gap-4 text-white font-semibold  cursor-pointer text-xl">
+                    <ul className=" hidden sm:flex gap-4 text-[#FFFFFF] font-semibold  cursor-pointer text-xl">
                         <li className="hover:text-gray-400 transition-all duration-300"><Link to="/">Home</Link></li>
                         <li className="hover:text-gray-400 transition-all duration-300"><Link to="/about">About</Link></li>
                         <li className="hover:text-gray-400 transition-all duration-300"><Link to="/project">Project</Link></li>
