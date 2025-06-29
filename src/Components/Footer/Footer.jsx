@@ -75,13 +75,13 @@ const Footer = () => {
                 </div>
                 <div>
                     <p
-                        data-aos="fade-up"
+                        data-aos="zoom-in"
                         data-aos-delay="100"
                         data-aos-anchor-placement="left-center"
 
                         className="text-center text-gray-300 text-sm">© 2025 All rights reserved.</p>
                     <p
-                        data-aos="fade-down"
+                        data-aos="zoom-out"
                         data-aos-delay="150"
                         data-aos-anchor-placement="left-center"
 
