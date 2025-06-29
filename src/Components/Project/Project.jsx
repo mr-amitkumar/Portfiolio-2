@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { motion as Motion, AnimatePresence } from "framer-motion";
-
 import Calculator from "../../assets/Calculator.png";
 import Portfolio from "../../assets/Portfolio.png";
 import Cafesito from "../../assets/Cafesito.png";
@@ -82,7 +81,6 @@ const Project = () => {
                 ))}
             </div>
 
-            {/* Framer Motion Modal */}
             <AnimatePresence>
                 {selectedProject && (
                     <Motion.div
@@ -92,7 +90,7 @@ const Project = () => {
                         exit={{ opacity: 0 }}
                     >
                         <Motion.div
-                            className="bg-white p-6 rounded-lg max-w-md w-full shadow-lg text-left relative"
+                            className="bg-white p-6 rounded-lg max-w-md w-[320px] shadow-lg text-left relative"
                             initial={{ scale: 0.8, opacity: 0 }}
                             animate={{ scale: 1, opacity: 1 }}
                             exit={{ scale: 0.8, opacity: 0 }}

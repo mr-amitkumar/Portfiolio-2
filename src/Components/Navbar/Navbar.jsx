@@ -34,7 +34,8 @@ const Navbar = () => {
                     <span className={`block w-6 h-[2px] bg-white right-4 transition-all duration-300 ${menu ? "-rotate-45 -translate-y-1" : ""
                         }`} />
                 </div>
-                <div className=" sm:block hidden group border-2 p-2 rounded-full text-green-600 border-green-600   hover:border-gray-300 cursor-pointer transition-all duration-300"><RiContactsFill className="group-hover:text-gray-300" />
+                <div className=" sm:block hidden group border-2 p-2 rounded-full text-green-600 border-green-600   hover:border-gray-300 cursor-pointer transition-all duration-300">
+                    <Link to="/contact"><RiContactsFill className="group-hover:text-gray-300" /></Link>
                 </div>
                 {menu && (
                     <ul className="absolute top-[70px] left-0 w-full h-[220px] bg-red-900 text-white flex flex-col items-center justify-center gap-5 shadow-md z-20 text-xl border-t border-gray-100">
@@ -48,8 +49,10 @@ const Navbar = () => {
                             <Link to="/project"><GoProjectRoadmap className='text-2xl' /></Link>
                         </li>
                         <div
-                            className=" sm:hidden group border-2 p-2 rounded-full text-green-600 border-green-600   hover:border-gray-300 cursor-pointer mx-auto"><RiContactsFill className="group-hover:text-gray-300"
-                            /></div>
+                            onClick={handleClose}
+                            className=" sm:hidden group border-2 p-2 rounded-full text-green-600 border-green-600   hover:border-gray-300 cursor-pointer mx-auto"><Link to="/contact">
+                                <RiContactsFill className="group-hover:text-gray-300"
+                                /></Link></div>
                     </ul>
                 )}
             </div>
