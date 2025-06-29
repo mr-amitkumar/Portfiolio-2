@@ -33,22 +33,25 @@ const Home = () => {
                         data-aos-delay="300"
                         className="text-gray-700">building the Frontend of Websites and <strong className="text-blue-600">web-applications</strong> that lead to the success of the overall product</p>
 
-                    <button
+                    <Link to="/project" className="flex align-middle items-center mx-auto mt-2 ">
+                        <button
+                            // data-aos-anchor-placement="left-center"
+                            data-aos="zoom-in"
+                            data-aos-delay="350"
+                            className="bg-orange-500 flex justify-center align-middle px-3 py-2 rounded-md shadow-lg text-black font-semibold hover:bg-orange-400 sm:text-xl transition-all duration-300">
 
-                        data-aos="zoom-in"
-                        // data-aos-anchor-placement="left-center"
 
-                        data-aos-delay="350"
+                            Go To Projects <MdArrowOutward className="items-center ml-2 rounded-full  text-2xl sm:text-3xl p-1 border-black border-2" />
 
-                        className="bg-orange-500 flex justify-center align-middle px-1 py-2 rounded-md shadow-lg text-black font-semibold hover:bg-orange-400 sm:text-xl transition-all duration-300">
-                        <Link to="/project" className="flex">Go To Projects <MdArrowOutward className="items-center ml-2 rounded-full  text-2xl sm:text-3xl p-1 border-black border-2" /></Link>
-                    </button>
+
+                        </button>
+                    </Link>
 
                 </div>
                 <div
                     data-aos="zoom-in"
                     data-aos-delay="100"
-                        data-aos-anchor-placement="left-center"
+                    data-aos-anchor-placement="left-center"
 
 
                     className="border-2 p-2  rounded-full text-gray-600 shadow-md shadow-gray-600 border-gray-600 sm:mt-0 mt-4 sm:mb-0 mb-4 ">
