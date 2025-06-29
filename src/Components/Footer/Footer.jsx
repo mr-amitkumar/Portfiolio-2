@@ -8,29 +8,29 @@ const Footer = () => {
                     <nav>
                         <h1
 
-                            data-aos="fade-right"
+                            data-aos="zoom-out"
                             data-aos-delay="100"
 
                             className="text-white sm:text-[20px] text-[15px] ">Important Links!</h1>
                         <ul className="flex flex-col sm:flex-row sm:gap-2 gap-1 text-white font-semibold cursor-pointer sm:text-xl text-[17px] ml-6">
                             <li
-                                data-aos="fade-right"
+                                data-aos="zoom-out"
                                 data-aos-delay="300"
 
                                 className="hover:text-gray-400 transition-all duration-300"><Link to="/">Home</Link></li>
                             <li
-                                data-aos="fade-right"
+                                data-aos="zoom-out"
                                 data-aos-delay="400"
 
                                 className="hover:text-gray-400 transition-all duration-300"><Link to="/about">About</Link></li>
                             <li
-                                data-aos="fade-right"
+                                data-aos="zoom-out"
                                 data-aos-delay="500"
                                 data-aos-anchor-placement="left-center"
 
                                 className="hover:text-gray-400 transition-all duration-300"><Link to="/project">Project</Link></li>
                             <li
-                                data-aos="fade-right"
+                                data-aos="zoom-out"
                                 data-aos-delay="600"
                                 data-aos-anchor-placement="left-center"
                                 className="hover:text-gray-400 transition-all duration-300"><Link to="/contact">Contact</Link></li>
