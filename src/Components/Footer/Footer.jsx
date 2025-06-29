@@ -46,46 +46,46 @@ const Footer = () => {
 
                         className="text-white sm:text-[20px] text-[15px] ">Social Links</h1>
                     <ul className="flex sm:flex-row flex-col gap-4 text-white font-semibold cursor-pointer sm:text-[18px] text-[15px] ml-6">
-                        <li 
-                        
-                        data-aos="zoom-in"
-                        data-aos-delay="200"
-                        data-aos-anchor-placement="left-center"
-                        className="hover:text-blue-400 transition-all duration-300"><a href="https://www.linkedin.com/in/amit-kumar-mahapatra-7b4989274"><FaLinkedin className="text-[20px]" /><p className="sm:block hidden text-[16px]">LinkedIn</p></a></li>
-                        <li 
-                        
-                        data-aos="zoom-in"
-                        data-aos-delay="300"
-                        data-aos-anchor-placement="left-center"
-                        
-                        className="hover:text-orange-400 transition-all duration-300"><a href="https://www.instagram.com/mr_amitkumar.143?igsh=Z3hqZXFjYmtuZ2p5"><FaInstagram className="text-[20px]" /><p className="sm:block hidden text-[16px]">Instagram</p></a></li>
-                        <li 
-                        data-aos="zoom-in"
-                        data-aos-delay="400"
-                        data-aos-anchor-placement="left-center"
-                        
-                        className="hover:text-gray-400 transition-all duration-300"><a href="https://github.com/mr-amitkumar"><FaGithub className="text-[20px]" /><p className="sm:block hidden text-[16px]">GitHub</p></a></li>
-                        <li 
-                        
-                        data-aos="zoom-in"
-                        data-aos-delay="500"
-                        data-aos-anchor-placement="left-center"
-                        className="hover:text-green-400 transition-all duration-300"><a href="https://wa.me/message/S3IYCD7HTQZGB1 "><FaWhatsapp className="text-[20px]" /><p className="sm:block hidden text-[16px]">WhatsApp</p></a></li>
+                        <li
+
+                            data-aos="zoom-in"
+                            data-aos-delay="200"
+                            data-aos-anchor-placement="left-center"
+                            className="hover:text-blue-400 transition-all duration-300"><a href="https://www.linkedin.com/in/amit-kumar-mahapatra-7b4989274"><FaLinkedin className="text-[20px]" /><p className="sm:block hidden text-[16px]">LinkedIn</p></a></li>
+                        <li
+
+                            data-aos="zoom-in"
+                            data-aos-delay="300"
+                            data-aos-anchor-placement="left-center"
+
+                            className="hover:text-orange-400 transition-all duration-300"><a href="https://www.instagram.com/mr_amitkumar.143?igsh=Z3hqZXFjYmtuZ2p5"><FaInstagram className="text-[20px]" /><p className="sm:block hidden text-[16px]">Instagram</p></a></li>
+                        <li
+                            data-aos="zoom-in"
+                            data-aos-delay="400"
+                            data-aos-anchor-placement="left-center"
+
+                            className="hover:text-gray-400 transition-all duration-300"><a href="https://github.com/mr-amitkumar"><FaGithub className="text-[20px]" /><p className="sm:block hidden text-[16px]">GitHub</p></a></li>
+                        <li
+
+                            data-aos="zoom-in"
+                            data-aos-delay="500"
+                            data-aos-anchor-placement="left-center"
+                            className="hover:text-green-400 transition-all duration-300"><a href="https://wa.me/message/S3IYCD7HTQZGB1 "><FaWhatsapp className="text-[20px]" /><p className="sm:block hidden text-[16px]">WhatsApp</p></a></li>
                     </ul>
                 </div>
                 <div>
-                    <p 
-                    data-aos="fade-up"
+                    <p
+                        data-aos="fade-up"
                         data-aos-delay="100"
                         data-aos-anchor-placement="left-center"
-                    
-                    className="text-center text-gray-300 text-sm">© 2025 All rights reserved.</p>
-                    <p 
-data-aos="fade-down"
+
+                        className="text-center text-gray-300 text-sm">© 2025 All rights reserved.</p>
+                    <p
+                        data-aos="fade-down"
                         data-aos-delay="150"
                         data-aos-anchor-placement="left-center"
 
-                    className="text-center text-gray-300 text-sm"> made by <strong className="text-yellow-400">Amit Kumar Mahapatra</strong></p>
+                        className="text-center text-gray-300 text-sm"> made by <strong className="text-yellow-400">Amit Kumar Mahapatra</strong></p>
                 </div>
             </div>
         </div>

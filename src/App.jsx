@@ -17,7 +17,7 @@ useEffect(()=>{
     duration:800,
     easing:"ease-in-sine",
     delay:100,
-    once:true,
+    // once:true,
   });
   AOS.refresh();
 },[]);

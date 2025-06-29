@@ -36,24 +36,50 @@ const About = () => {
         <div className="bg-gray-300 min-h-screen text-black">
             <div className="flex flex-col gap-4 justify-center items-center mx-auto px-4 max-w-4xl">
 
-                <h1 className="text-center mt-6 text-2xl sm:text-3xl font-semibold"
+                <h1 
+                
+                 data-aos="fade-down"
+                        data-aos-anchor-paclement="top-center"
+                        data-aos-delay="100"
+                
+                className="text-center mt-6 text-2xl sm:text-3xl font-semibold"
                 >About Me</h1>
 
                 <div
                     className="flex flex-col sm:flex-row gap-4 items-center"
                              >
                     <div className="flex flex-col gap-3 text-center sm:text-left max-w-2xl px-4">
-                        <p className="text-gray-800 text-lg sm:text-xl">
+                        <p 
+                        
+                         data-aos="zoom-in"
+                        data-aos-anchor-paclement="top-center"
+                        data-aos-delay="200"
+                        className="text-gray-800 text-lg sm:text-xl">
                             Hello! I'm <strong className="text-blue-600">Amit Kumar Mahapatra</strong>, a passionate <strong className="text-orange-600">web developer</strong> focused on <strong className="text-red-600">front-end technologies</strong>.
                         </p>
-                        <p className="text-gray-800 text-lg sm:text-[19px]">
+                        <p
+                        
+                         data-aos="zoom-in"
+                        data-aos-anchor-paclement="top-center"
+                        data-aos-delay="300"
+                        className="text-gray-800 text-lg sm:text-[19px]">
                             I specialize in <strong className="text-yellow-600">HTML, CSS, and JavaScript</strong>, and I'm eager to explore new frameworks to enhance projects.
                         </p>
-                        <p className="text-gray-800 text-[16px] sm:text-[18px]">
+                        <p 
+                         data-aos="zoom-in"
+                        data-aos-anchor-paclement="top-center"
+                        data-aos-delay="300"
+                        
+                        className="text-gray-800 text-[16px] sm:text-[18px]">
                             I enjoy <strong className="text-pink-600">collaboration and communication</strong>, and love contributing to projects that make an impact.
                         </p>
                     </div>
-                    <div className="border-2 p-3 rounded-full shadow-lg border-gray-400 mb-6">
+                    <div 
+                    
+                     data-aos="zoom-out"
+                        data-aos-anchor-paclement="top-center"
+                        data-aos-delay="200"
+                    className="border-2 p-3 rounded-full shadow-lg border-gray-400 mb-6">
                         <img src={Image} alt="" className="p-1 rounded-full sm:h-[250px] sm:w-[400px] h-[190px] w-[190px] object-cover" />
                     </div>
                 </div>

@@ -62,9 +62,19 @@ const Project = () => {
 
     return (
         <div className="bg-gray-300 text-black min-h-screen p-6 text-center">
-            <h1 className="text-2xl sm:text-3xl font-bold mb-6">Projects</h1>
+            <h1 
+             data-aos="zoom-in"
+                        data-aos-anchor-paclement="top-center"
+                        data-aos-delay="200"
+            
+            className="text-2xl sm:text-3xl font-bold mb-6">Projects</h1>
 
-            <div className="sm:grid sm:grid-cols-3 sm:gap-4 gap-6 flex flex-col max-w-[900px] mx-auto">
+            <div 
+            
+             data-aos="zoom-in"
+                        data-aos-anchor-paclement="top-center"
+                        data-aos-delay="200"
+            className="sm:grid sm:grid-cols-3 sm:gap-4 gap-6 flex flex-col max-w-[900px] mx-auto">
                 {projects.map((proj) => (
                     <div
                         key={proj.id}
