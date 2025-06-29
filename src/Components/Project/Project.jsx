@@ -12,20 +12,22 @@ const Project = () => {
 
     const projects = [
         {
-            image: Form,
+            image: Cafesito,
             id: 1,
-            name: "Form fill-up with email message",
+            name: "Cafesito",
             description:
-                "A simple form fill-up application that allows users to enter their name, email, and a message. After submission, it displays confirmation.",
-            link: "https://contact-from-with-message-email.vercel.app/",
+                "A cafe website built with React + Vite showcasing the menu, location, and contact info.",
+            link: "https://cafesito.vercel.app/",
+            
         },
         {
-            image: Tdl,
+            image: Portfolio,
             id: 2,
-            name: "Todo List",
+            name: "Portfolio",
             description:
-                "A simple Todo List app that allows users to add, delete, and mark tasks as completed. Uses local storage to persist data.",
-            link: "https://to-do-list-in-js.vercel.app/",
+                "A personal portfolio website built using HTML and CSS that showcases my skills, projects, and contact information.",
+            link: "https://personal-portfolio-one-phi-53.vercel.app/",
+            
         },
         {
             image: Calculator,
@@ -36,20 +38,20 @@ const Project = () => {
             link: "https://calculator-theta-three-22.vercel.app/",
         },
         {
-            image: Portfolio,
+            image: Tdl,
             id: 4,
-            name: "Portfolio",
+            name: "Todo List",
             description:
-                "A personal portfolio website built using HTML and CSS that showcases my skills, projects, and contact information.",
-            link: "https://personal-portfolio-one-phi-53.vercel.app/",
+                "A simple Todo List app that allows users to add, delete, and mark tasks as completed. Uses local storage to persist data.",
+            link: "https://to-do-list-in-js.vercel.app/",
         },
         {
-            image: Cafesito,
+            image: Form,
             id: 5,
-            name: "Cafesito",
+            name: "Form fill-up with email message",
             description:
-                "A cafe website built with React + Vite showcasing the menu, location, and contact info.",
-            link: "https://cafesito.vercel.app/",
+                "A simple form fill-up application that allows users to enter their name, email, and a message. After submission, it displays confirmation.",
+            link: "https://contact-from-with-message-email.vercel.app/",
         },
         {
             image: Stopwatch,

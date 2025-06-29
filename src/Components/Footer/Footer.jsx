@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className="bg-gray-800 h-[35vh] sm:h-[20vh] ">
             <div className="flex flex-row  gap-6 align-middle justify-between items-center max-w-4xl mx-auto px-4 h-full">
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col ml-3 gap-3">
                     <nav>
                         <h1
 
@@ -12,7 +12,7 @@ const Footer = () => {
                             data-aos-delay="100"
 
                             className="text-white sm:text-[20px] text-[15px] ">Important Links!</h1>
-                        <ul className="flex flex-col sm:flex-row sm:gap-2 gap-1 text-white font-semibold cursor-pointer sm:text-xl text-[17px] ml-6">
+                        <ul className="flex flex-col sm:flex-row sm:gap-2 gap-1 text-white font-semibold cursor-pointer sm:text-xl text-[17px] ">
                             <li
                                 data-aos="zoom-out"
                                 data-aos-delay="300"
@@ -37,15 +37,15 @@ const Footer = () => {
                         </ul>
                     </nav>
                 </div>
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col ml-4  mt-4 align-middle gap-3">
                     <h1
                         data-aos="zoom-in"
                         data-aos-delay="100"
                         data-aos-anchor-placement="left-center"
 
 
-                        className="text-white sm:text-[20px] text-[15px] ">Social Links</h1>
-                    <ul className="flex sm:flex-row flex-col gap-4 text-white font-semibold cursor-pointer sm:text-[18px] text-[15px] ml-6">
+                        className="text-white sm:text-[20px] text-[15px]  ">Social Links</h1>
+                    <ul className="flex sm:flex-row flex-col gap-4 text-white font-semibold cursor-pointer sm:text-[18px] text-[15px] ">
                         <li
 
                             data-aos="zoom-in"
@@ -73,7 +73,7 @@ const Footer = () => {
                             className="hover:text-green-400 transition-all duration-300"><a href="https://wa.me/message/S3IYCD7HTQZGB1 "><FaWhatsapp className="text-[20px]" /><p className="sm:block hidden text-[16px]">WhatsApp</p></a></li>
                     </ul>
                 </div>
-                <div>
+                <div className="flex flex-col align-middle text-center justify-center gap-2 mt-4">
                     <p
                         data-aos="zoom-in"
                         data-aos-delay="100"
