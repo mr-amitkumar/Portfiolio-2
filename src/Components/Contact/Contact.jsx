@@ -15,7 +15,7 @@ const Contact = () => {
           <h1>
             <MdEmail className="text-6xl rounded-full border-2 p-3 border-gray-600 shadow-md text-orange-600" />
           </h1>
-          <p className="sm:text-xl font-normal"><a href="">Email: <strong>amitkumarmahapatra2@gmail.com</strong></a></p>
+          <p className="sm:text-xl font-normal">Email: <strong>amitkumarmahapatra2@gmail.com</strong></p>
         </div>
         <div
           data-aos="zoom-out"
@@ -24,8 +24,8 @@ const Contact = () => {
           <h1>
             <FaAddressBook className="text-6xl rounded-full border-2 p-3 border-gray-600 shadow-md text-orange-600" />
           </h1>
-          <p className="sm:text-xl font-normal"><a href="">Address: <strong>At-Kalidaspur,Balasore,Odisha,India</strong>
-          </a></p>
+          <p className="sm:text-xl font-normal">Address: <strong>At-Kalidaspur,Balasore,Odisha,India</strong>
+          </p>
         </div>
         <div
 
@@ -35,7 +35,7 @@ const Contact = () => {
           <h1>
             <FaPhone className="text-6xl rounded-full border-2 p-3 border-gray-600 shadow-md text-orange-600" />
           </h1>
-          <p className="text-xl font-normal"><a href="">Phone: <strong>+91 9348695669</strong></a></p>
+          <p className="text-xl font-normal">Phone: <strong>+91 9348695669</strong></p>
         </div>
 
       </div>
